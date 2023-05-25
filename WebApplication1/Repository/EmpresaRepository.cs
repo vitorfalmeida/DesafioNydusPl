@@ -8,48 +8,47 @@ using WebApplication1.Models;
 
 namespace WebApplication1.Repository
 {
-  
 
-    public class ColaboradorRepository
+
+    public class EmpresaRepository
     {
         private NydusDBContext _context;
 
-        public ColaboradorRepository()
+        public EmpresaRepository()
         {
             _context = new NydusDBContext();
         }
 
-        public List<Colaborador> ObterColaboradores()
+        public List<Empresa> ObterEmpresas()
         {
-            return _context.Colaboradores.ToList();
+            return _context.Empresas.ToList();
         }
 
-        public Colaborador ObterColaboradorPorId(int id)
+        public Empresa ObterEmpresaPorId(int id)
         {
-            return _context.Colaboradores.Find(id);
+            return _context.Empresas.Find(id);
         }
 
-        public void InserirColaborador(Colaborador colaborador)
+        public void InserirEmpresa(Empresa empresa)
         {
-            _context.Colaboradores.Add(colaborador);
+            _context.Empresas.Add(empresa);
             _context.SaveChanges();
         }
 
-        public void AtualizarColaborador(Colaborador colaborador)
+        public void AtualizarEmpresa(Empresa empresa)
         {
-            _context.Entry(colaborador).State = EntityState.Modified;
+            _context.Entry(empresa).State = EntityState.Modified;
             _context.SaveChanges();
         }
 
-        public void ExcluirColaborador(int id)
+        public void ExcluirEmpresa(int id)
         {
-            var colaborador = _context.Colaboradores.Find(id);
-            if (colaborador != null)
+            var empresa = _context.Empresas.Find(id);
+            if (empresa != null)
             {
-                _context.Colaboradores.Remove(colaborador);
+                _context.Empresas.Remove(empresa);
                 _context.SaveChanges();
             }
         }
     }
-
 }
