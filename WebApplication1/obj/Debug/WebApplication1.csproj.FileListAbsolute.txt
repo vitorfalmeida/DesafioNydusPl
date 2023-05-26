@@ -156,3 +156,11 @@ C:\Users\User\Desktop\DesafioNydusPl\WebApplication1\bin\Microsoft.CodeDom.Provi
 C:\Users\User\Desktop\DesafioNydusPl\WebApplication1\bin\pt-br\System.Web.Optimization.resources.dll
 C:\Users\User\Desktop\DesafioNydusPl\WebApplication1\bin\pt-br\Microsoft.AspNet.FriendlyUrls.resources.dll
 C:\Users\User\Desktop\DesafioNydusPl\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
+C:\Users\User\Desktop\DesafioNydusPl\WebApplication1\bin\Microsoft.Practices.Unity.dll
+C:\Users\User\Desktop\DesafioNydusPl\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\DesafioNydusPl\WebApplication1\bin\Unity.Abstractions.dll
+C:\Users\User\Desktop\DesafioNydusPl\WebApplication1\bin\Unity.Container.dll
+C:\Users\User\Desktop\DesafioNydusPl\WebApplication1\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\User\Desktop\DesafioNydusPl\WebApplication1\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Desktop\DesafioNydusPl\WebApplication1\bin\Unity.Abstractions.pdb
+C:\Users\User\Desktop\DesafioNydusPl\WebApplication1\bin\Unity.Container.pdb
